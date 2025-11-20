@@ -1,0 +1,1127 @@
+{
+  "exams": [
+    {
+      "id": "abdomen",
+      "name": "Abdomen Examination",
+      "shortName": "Abdomen",
+      "totalSteps": 24,
+      "steps": [
+        {
+          "id": "abdomen-1",
+          "stepNumber": 1,
+          "title": "Ensures Privacy",
+          "subSteps": [
+            { "id": "1a", "content": "Introduces self & explains role" },
+            { "id": "1b", "content": "Confirms Patient Identity" },
+            { "id": "1c", "content": "Informs patient they will be verbally describing the examination" }
+          ]
+        },
+        {
+          "id": "abdomen-2",
+          "stepNumber": 2,
+          "title": "Performs Hand Hygiene",
+          "subSteps": []
+        },
+        {
+          "id": "abdomen-3",
+          "stepNumber": 3,
+          "title": "Inspects Appearance",
+          "comments": ["Dress, posture, grooming, & hygiene", "Stature & build", "Nutritional state", "Pallor or cyanosis", "Pursed lips or flared nostrils"]
+        },
+        {
+          "id": "abdomen-4",
+          "stepNumber": 4,
+          "title": "Inspects Behavior",
+          "comments": ["Degree if Cooperativeness", "State of distress", "Affect", "Eye Contact", "Motor activity (normokinetic, bradykinetic, hyperkinetic)"]
+        },
+        {
+          "id": "abdomen-5",
+          "stepNumber": 5,
+          "title": "Prepares for Abdominal Exam",
+          "subSteps": [
+            { "id": "5a", "content": "Instructs the patient to lay supine & inquires about painful areas" },
+            { "id": "5b", "content": "Positions patient arms at side or across chest, table extended, with knees flexed" },
+            { "id": "5c", "content": "Positions drape, exposing area from xiphoid to symphysis pubis" }
+          ]
+        },
+        {
+          "id": "abdomen-6",
+          "stepNumber": 6,
+          "title": "Inspects Abdomen using tangential lighting",
+          "comments": ["Skin & hair characteristics", "Contour", "Symmetry", "Pulsations/movements", "Umbilicus"]
+        },
+        {
+          "id": "abdomen-7",
+          "stepNumber": 7,
+          "title": "Auscultates all 4 quadrants for Bowel Sounds",
+          "instructions": "with diaphragm clockwise, starting at RLQ",
+          "comments": ["Rate", "Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-8",
+          "stepNumber": 8,
+          "title": "Auscultates for Vascular Sounds with bell",
+          "subSteps": [
+            { "id": "8a", "content": "Epigastric & Umbilical area - Comments on: Venous hum, presence or absence" },
+            { "id": "8b", "content": "Aorta" },
+            { "id": "8c", "content": "Bilateral Renal Arteries" },
+            { "id": "8d", "content": "Bilateral Iliac Arteries" },
+            { "id": "8e", "content": "Bilateral Femoral Arteries" }
+          ],
+          "comments": ["Bruits, presence or absence, quality"]
+        },
+        {
+          "id": "abdomen-9",
+          "stepNumber": 9,
+          "title": "Palpates bilateral Femoral Pulses",
+          "comments": ["Symmetry", "Grade"]
+        },
+        {
+          "id": "abdomen-10",
+          "stepNumber": 10,
+          "title": "Palpates bilateral horizontal & vertical Inguinal Lymph Nodes",
+          "comments": ["Size", "Consistency", "Mobility"]
+        },
+        {
+          "id": "abdomen-11",
+          "stepNumber": 11,
+          "title": "Percusses all 4 quadrants of Abdomen",
+          "instructions": "clockwise, starting at RLQ",
+          "comments": ["Tympany or dullness", "Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-12",
+          "stepNumber": 12,
+          "title": "Percusses Liver Borders",
+          "subSteps": [
+            { "id": "12a", "content": "Upper border: percuss intercostal spaces along the right midclavicular line starting from an area of lung resonance down, marking the first area of dullness" },
+            { "id": "12b", "content": "Lower border: percuss along the right midclavicular line starting from an area of intestinal tympany up (just below umbilicus), marking the first area of dullness" },
+            { "id": "12c", "content": "Measure liver span in cm" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-13",
+          "stepNumber": 13,
+          "title": "Percusses Spleen",
+          "subSteps": [
+            { "id": "13a", "content": "Use Castell's Method" },
+            { "id": "13b", "content": "Follow anterior axillary line to last intercostal space (approximately 9th or 10th intercostal space)" },
+            { "id": "13c", "content": "Instruct patient to exhale completely and percuss for tympany" },
+            { "id": "13d", "content": "Instruct patient to inhale and percuss for change to dullness" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-14",
+          "stepNumber": 14,
+          "title": "Performs Light Palpation of abdomen",
+          "instructions": "clockwise, starting at RLQ",
+          "comments": ["Rigidity, guarding", "Tenderness", "Masses"]
+        },
+        {
+          "id": "abdomen-15",
+          "stepNumber": 15,
+          "title": "Performs Deep Palpation of abdomen",
+          "instructions": "clockwise, starting at RLQ",
+          "comments": ["Rigidity, guarding", "Tenderness", "Masses"]
+        },
+        {
+          "id": "abdomen-16",
+          "stepNumber": 16,
+          "title": "Palpates Liver",
+          "subSteps": [
+            { "id": "16a", "content": "Places left hand under thorax parallel to 11-12th ribs" },
+            { "id": "16b", "content": "Places right fingertips lightly below costal margin at MCL" },
+            { "id": "16c", "content": "Instructs patient to take a deep breath & blow it out completely" },
+            { "id": "16d", "content": "On exhale, palpates with right fingertips & applies upward pressure with left" },
+            { "id": "16e", "content": "Holds position as patient inhales" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-17",
+          "stepNumber": 17,
+          "title": "Palpates Epigastric, Umbilical & Incision Areas for hernias",
+          "subSteps": [
+            { "id": "17a", "content": "Instructs patient to cough or strain while palpating with palmer surface of hand" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-18",
+          "stepNumber": 18,
+          "title": "Tests for Cholecystitis with Murphey's sign",
+          "subSteps": [
+            { "id": "18a", "content": "Instructs patient to exhale completely" },
+            { "id": "18b", "content": "Deeply palpates below right costal margin at mid-clavicular line with upward pressure & instructs patient to inhale" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-19",
+          "stepNumber": 19,
+          "title": "Tests for Peritonitis with Rebound Tenderness",
+          "subSteps": [
+            { "id": "19a", "content": "Palpates McBurney's point slowly & deeply, releasing pressure suddenly" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-20",
+          "stepNumber": 20,
+          "title": "Tests for RLQ Peritonitis with Rovsing Sign",
+          "subSteps": [
+            { "id": "20a", "content": "Palpates LLQ slowly & deeply, releasing pressure suddenly" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-21",
+          "stepNumber": 21,
+          "title": "Tests for Retrocecal Appendicitis with Psoas sign",
+          "subSteps": [
+            { "id": "21a", "content": "Instructs patient to actively flex leg at hip against resistance with knee flexed" },
+            { "id": "21b", "content": "Instruct patient to lie on left side and hyperflex right hip" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-22",
+          "stepNumber": 22,
+          "title": "Tests for Pelvic Appendicitis with Obturator sign",
+          "subSteps": [
+            { "id": "22a", "content": "Position patient with hip & knee flexed at 90 degrees, supporting ankle & knee" },
+            { "id": "22b", "content": "Passively internally rotate leg at hip" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-23",
+          "stepNumber": 23,
+          "title": "Percusses bilateral Kidneys for CVA Tenderness",
+          "subSteps": [
+            { "id": "23a", "content": "Places palmar surface of hand at costovertebral angle" },
+            { "id": "23b", "content": "Make fist with other hand, strikes first hand" },
+            { "id": "23c", "content": "Observes patient for signs of tenderness or pain" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "abdomen-24",
+          "stepNumber": 24,
+          "title": "Appropriately concludes the exam with the patient",
+          "subSteps": []
+        }
+      ]
+    },
+    {
+      "id": "cardiac",
+      "name": "Cardiac/Respiratory Examination",
+      "shortName": "Cardiac/Resp",
+      "totalSteps": 17,
+      "steps": [
+        {
+          "id": "cardiac-1",
+          "stepNumber": 1,
+          "title": "Ensures Privacy",
+          "subSteps": [
+            { "id": "1a", "content": "Introduces self & explains role" },
+            { "id": "1b", "content": "Confirms Patient Identity" },
+            { "id": "1c", "content": "Informs patient they will be verbally describing the examination" }
+          ]
+        },
+        {
+          "id": "cardiac-2",
+          "stepNumber": 2,
+          "title": "Performs Hand Hygiene",
+          "subSteps": []
+        },
+        {
+          "id": "cardiac-3",
+          "stepNumber": 3,
+          "title": "Inspects Appearance",
+          "comments": ["Dress, posture, grooming, & hygiene", "Stature & build", "Nutritional state", "Pallor or cyanosis", "Pursed lips or flared nostrils"]
+        },
+        {
+          "id": "cardiac-4",
+          "stepNumber": 4,
+          "title": "Inspects Behavior",
+          "comments": ["Degree if Cooperativeness", "State of distress", "Affect", "Eye Contact", "Motor activity (normokinetic, bradykinetic, hyperkinetic)"]
+        },
+        {
+          "id": "cardiac-5",
+          "stepNumber": 5,
+          "title": "Inspects Precordium",
+          "comments": ["Heaves & lifts"]
+        },
+        {
+          "id": "cardiac-6",
+          "stepNumber": 6,
+          "title": "Palpates Precordium",
+          "subSteps": [
+            { "id": "6a", "content": "Identifies location of PMI" }
+          ],
+          "comments": ["Size"]
+        },
+        {
+          "id": "cardiac-7",
+          "stepNumber": 7,
+          "title": "Auscultates 5 areas of Heart",
+          "instructions": "with diaphragm & bell, several cardiac cycles per area",
+          "subSteps": [
+            { "id": "7a", "content": "Aortic, 2nd ICS, RSB (S2 > S1)" },
+            { "id": "7b", "content": "Pulmonic, 2nd ICS, LSB (S2 > S1)" },
+            { "id": "7c", "content": "Erbs Point – 3rd ICS LSB (S2 = S1)" },
+            { "id": "7d", "content": "Instructs patient to lift breast if necessary" },
+            { "id": "7e", "content": "Tricuspid – 4th ICS LSB (S1 > S2)" },
+            { "id": "7f", "content": "Mitral (Apical) - 5th ICS MCL (S1 > S2)" }
+          ],
+          "comments": ["Rate", "Rhythm", "Murmur, presence or absence, location, characteristics"]
+        },
+        {
+          "id": "cardiac-8",
+          "stepNumber": 8,
+          "title": "Auscultates Apical Heart Rate",
+          "instructions": "at Mitral area for one full minute",
+          "comments": ["Rate"]
+        },
+        {
+          "id": "cardiac-9",
+          "stepNumber": 9,
+          "title": "Auscultates for Aortic Regurgitation & Mitral Stenosis",
+          "subSteps": [
+            { "id": "9a", "content": "Instructs patient to lean forward, exhale, & hold breath" },
+            { "id": "9b", "content": "Listens with diaphragm at LSB at apex/base" },
+            { "id": "9c", "content": "Instruct patient to lie in the left lateral decubitus position" },
+            { "id": "9d", "content": "Listens with bell at apical impulse" },
+            { "id": "9e", "content": "Palpates carotid impulse to identify systole and diastole" }
+          ],
+          "comments": ["Murmur, presence or absence", "Systolic or diastolic"]
+        },
+        {
+          "id": "cardiac-10",
+          "stepNumber": 10,
+          "title": "Inspects Thorax",
+          "comments": ["Skin characteristics", "Respiratory rate & pattern", "Symmetric or paradoxical chest rise, retractions", "Use of accessory muscles", "Symmetry of shoulders & clavicles", "Anterior-Posterior to transverse diameter ratio"]
+        },
+        {
+          "id": "cardiac-11",
+          "stepNumber": 11,
+          "title": "Palpates Thorax",
+          "comments": ["Pulsations, tenderness, masses, or depressions", "Rigidity, crepitus, or rubs"]
+        },
+        {
+          "id": "cardiac-12",
+          "stepNumber": 12,
+          "title": "Auscultates Anterior Thorax with diaphragm",
+          "subSteps": [
+            { "id": "12a", "content": "Instructs patient to breathe deep with mouth open" },
+            { "id": "12b", "content": "Systematic progression side to side, from apex to base, at intercostal spaces" },
+            { "id": "12c", "content": "Instructs patient to lift breast if necessary" }
+          ],
+          "comments": ["Clarity of lung sounds, adventitious sounds (location, quality, grade)"]
+        },
+        {
+          "id": "cardiac-13",
+          "stepNumber": 13,
+          "title": "Auscultates Posterior Thorax with diaphragm",
+          "subSteps": [
+            { "id": "13a", "content": "Instructs patient to breathe through mouth, cross arms at waist, head forward" },
+            { "id": "13b", "content": "Systematic progression side to side, from apex to base, at intercostal spaces" },
+            { "id": "13c", "content": "Includes lateral fields" },
+            { "id": "13d", "content": "At least 1 full cycle at each point" }
+          ],
+          "comments": ["Clarity of lung sounds, adventitious sounds (location, quality, grade)"]
+        },
+        {
+          "id": "cardiac-14",
+          "stepNumber": 14,
+          "title": "Auscultates for Bronchophony",
+          "subSteps": [
+            { "id": "14a", "content": "Instructs patient to repeat \"99\" while auscultating posterior lung fields" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "cardiac-15",
+          "stepNumber": 15,
+          "title": "Auscultates for Egophony",
+          "subSteps": [
+            { "id": "15a", "content": "Instructs patient to repeat \"eeee\" while auscultating posterior lung fields" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "cardiac-16",
+          "stepNumber": 16,
+          "title": "Auscultates for Whisper Pectoriloquy",
+          "subSteps": [
+            { "id": "16a", "content": "Instructs patient to whisper \"123\" while auscultating posterior lung fields" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "cardiac-17",
+          "stepNumber": 17,
+          "title": "Appropriately concludes the exam with the patient",
+          "subSteps": []
+        }
+      ]
+    },
+    {
+      "id": "heent",
+      "name": "HEENT/Cranial Nerves Examination",
+      "shortName": "HEENT/CN",
+      "totalSteps": 37,
+      "steps": [
+        {
+          "id": "heent-1",
+          "stepNumber": 1,
+          "title": "Ensures Privacy",
+          "subSteps": [
+            { "id": "1a", "content": "Introduces self & explains role" },
+            { "id": "1b", "content": "Confirms Patient Identity" },
+            { "id": "1c", "content": "Informs patient they will be verbally describing the examination" }
+          ]
+        },
+        {
+          "id": "heent-2",
+          "stepNumber": 2,
+          "title": "Performs Hand Hygiene",
+          "subSteps": []
+        },
+        {
+          "id": "heent-3",
+          "stepNumber": 3,
+          "title": "Inspects Appearance",
+          "comments": ["Dress, posture, grooming, & hygiene", "Stature & build", "Nutritional state"]
+        },
+        {
+          "id": "heent-4",
+          "stepNumber": 4,
+          "title": "Inspects Behavior",
+          "comments": ["Degree if cooperativeness", "State of distress", "Affect", "Eye contact", "Motor activity (normokinetic, bradykinetic, hyperkinetic)"]
+        },
+        {
+          "id": "heent-5",
+          "stepNumber": 5,
+          "title": "Inspects Skull, Scalp & Hair",
+          "comments": ["Shape", "Symmetry", "Lesions", "Hair"]
+        },
+        {
+          "id": "heent-6",
+          "stepNumber": 6,
+          "title": "Palpates Skull",
+          "comments": ["Lumps", "Depressions", "Tenderness"]
+        },
+        {
+          "id": "heent-7",
+          "stepNumber": 7,
+          "title": "Tests CN VII – Facial",
+          "subSteps": [
+            { "id": "7a", "content": "Instructs patient to: Frown" },
+            { "id": "7b", "content": "Elevate forehead or raise eyebrows" },
+            { "id": "7c", "content": "Clench & show teeth" },
+            { "id": "7d", "content": "Smile" },
+            { "id": "7e", "content": "Puff & blow out cheeks" },
+            { "id": "7f", "content": "Close eyes firmly – tries to open against resistance, no pressure on the globe" },
+            { "id": "7g", "content": "Inspects Facial Features, observes & comments on symmetry" }
+          ]
+        },
+        {
+          "id": "heent-8",
+          "stepNumber": 8,
+          "title": "Palpates bilateral Temporal Arteries simultaneously",
+          "comments": ["Thickness", "Tenderness", "Symmetry & presence/absence of impulse"]
+        },
+        {
+          "id": "heent-9",
+          "stepNumber": 9,
+          "title": "Tests CN V – Trigeminal",
+          "subSteps": [
+            { "id": "9a", "content": "Motor: Places hands on patient's cheeks & temples" },
+            { "id": "9b", "content": "Instructs patient to contract & relax masseter muscles by clenching teeth" },
+            { "id": "9c", "content": "Tests strength by pushing down on mandible against resistance" },
+            { "id": "9d", "content": "Sensory: Instructs patient to close eyes & say \"now\" when feeling cotton touch their face" },
+            { "id": "9e", "content": "Uses light touch with wisp of cotton over 3 nerve divisions bilaterally" }
+          ],
+          "comments": ["Bilateral motor function, intact or deficit", "Bilateral sensory function, intact or deficit"]
+        },
+        {
+          "id": "heent-10",
+          "stepNumber": 10,
+          "title": "Inspects bilateral Eyebrows, Orbital Areas & Eyelids",
+          "comments": ["Distribution of eyebrows", "Orbital edema, sagging tissue, lesions, or nodules", "Ptosis", "Completeness of lid closure", "Erythema", "Discharge or tearing"]
+        },
+        {
+          "id": "heent-11",
+          "stepNumber": 11,
+          "title": "Inspects the Bulbar & Palpebral Conjunctivae & Sclerae",
+          "instructions": "pulls down bilateral lower lids",
+          "comments": ["Color", "Edema"]
+        },
+        {
+          "id": "heent-12",
+          "stepNumber": 12,
+          "title": "Palpates bilateral Lacrimal Glands & Sac",
+          "comments": ["Edema", "Tenderness"]
+        },
+        {
+          "id": "heent-13",
+          "stepNumber": 13,
+          "title": "Tests CN II, III (Optic, Oculomotor)",
+          "subSteps": [
+            { "id": "13a", "content": "Instructs patient to focus at a far fixed point and then on a near fixed point, observes pupillary response" },
+            { "id": "13b", "content": "Inspects bilateral eyes with pen light, observes pupillary response" },
+            { "id": "13c", "content": "Perform swinging light test, observes pupillary response" }
+          ],
+          "comments": ["Corneal clarity", "Pupillary size & shape", "Pupillary reflex, direct, consensual, and afferent accommodation"]
+        },
+        {
+          "id": "heent-14",
+          "stepNumber": 14,
+          "title": "Tests CN III, IV, VI (Oculomotor, Trochlear, Abducens)",
+          "subSteps": [
+            { "id": "14a", "content": "Instructs patient to follow the pen with eyes without moving head" },
+            { "id": "14b", "content": "Performs six cardinal fields of gaze" }
+          ],
+          "comments": ["Conjugate or convergent gaze", "Nystagmus, presence or absence, and plane of movement"]
+        },
+        {
+          "id": "heent-15",
+          "stepNumber": 15,
+          "title": "Tests Visual Acuity (CN II, Optic)",
+          "instructions": "with handheld Snellen chart",
+          "subSteps": [
+            { "id": "15a", "content": "Follows instructions on card" },
+            { "id": "15b", "content": "Instructs patient to read the smallest line they can with both eyes, & each eye separately (if corrected vision, assess with glasses/contacts)" }
+          ],
+          "comments": ["Visual acuity 20/X (OU, OD, & OS)"]
+        },
+        {
+          "id": "heent-16",
+          "stepNumber": 16,
+          "title": "Tests Visual Fields (CN II, Optic)",
+          "instructions": "with Confrontation Exam",
+          "subSteps": [
+            { "id": "16a", "content": "Instructs patient to stare straight ahead at your nose" },
+            { "id": "16b", "content": "Have patient cover one eye at a time while assessing visual field of uncovered eye" },
+            { "id": "16c", "content": "Patient to state when practitioner's fingers in field of view" }
+          ],
+          "comments": ["Scotoma", "Visual field deficits"]
+        },
+        {
+          "id": "heent-17",
+          "stepNumber": 17,
+          "title": "Performs Ophthalmoscopic exam",
+          "subSteps": [
+            { "id": "17a", "content": "Prepares: Explains exam, gives patient instructions & permission to ask for rest" },
+            { "id": "17b", "content": "Positions patient at eye level" },
+            { "id": "17c", "content": "Adjusts light shape & intensity & focuses ophthalmoscope" },
+            { "id": "17d", "content": "Cracks open the door & darkens room to dilate pupils" },
+            { "id": "17e", "content": "Performs: Right hand with right eye; left hand with left eye" },
+            { "id": "17f", "content": "Braces other hand on forehead, thumb above eyebrow" },
+            { "id": "17g", "content": "No pressure on globe & no pulling on eyelids" },
+            { "id": "17h", "content": "Inspects all 4 quadrants of each eye" }
+          ],
+          "comments": ["Red reflex", "Retinal color and lesions", "Characteristics of blood vessels", "Disc & physiologic cup characteristics", "Macula characteristics (instructs patient to look directly at light)"]
+        },
+        {
+          "id": "heent-18",
+          "stepNumber": 18,
+          "title": "Inspects & palpates bilaterally the Pinna, Tragus & Mastoid Area",
+          "comments": ["Position", "Deformities, or lesions", "Tenderness", "Swelling"]
+        },
+        {
+          "id": "heent-19",
+          "stepNumber": 19,
+          "title": "Inspects bilateral Auditory Canals & Tympanic Membranes",
+          "instructions": "with otoscope",
+          "subSteps": [
+            { "id": "19a", "content": "Braces Otoscope" },
+            { "id": "19b", "content": "Selects appropriate cover" },
+            { "id": "19c", "content": "Pulls gently back & up on antihelix of pinna to adjust for better exposure" }
+          ],
+          "comments": ["Patency", "Cerumen", "Erythema", "Discharge", "TM color, transparency, contour, light reflex, & perforations"]
+        },
+        {
+          "id": "heent-20",
+          "stepNumber": 20,
+          "title": "Tests CN VIII (Acoustic)",
+          "subSteps": [
+            { "id": "20a", "content": "Performs Whisper Test on each ear" },
+            { "id": "20b", "content": "Instructs patient to repeat whisper & occlude opposite ear" },
+            { "id": "20c", "content": "Stands behind patient, whispers two-syllable word from distance of 2 feet" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "heent-21",
+          "stepNumber": 21,
+          "title": "Tests for Conductive & Sensorineural Hearing Loss",
+          "subSteps": [
+            { "id": "21a", "content": "Weber Test: places tuning fork base at center of forehead, asks patient which ear hears the sound loudest" },
+            { "id": "21b", "content": "Rhinne Test: places tuning fork base at mastoid bone, asks patient to indicate when sound is no longer heard, holds fork tines 1 inch from the ear, asks patient to indicate when sound is no longer heard" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "heent-22",
+          "stepNumber": 22,
+          "title": "Palpates Frontal & Maxillary Sinuses",
+          "comments": ["Tenderness/pain", "Crepitus"]
+        },
+        {
+          "id": "heent-23",
+          "stepNumber": 23,
+          "title": "Inspects & palpates External Nose",
+          "comments": ["Shape (displacement of cartilage & bone)"]
+        },
+        {
+          "id": "heent-24",
+          "stepNumber": 24,
+          "title": "Tests bilateral Nare Patency",
+          "instructions": "occludes nare & exhales",
+          "comments": ["Presence or absence of obstruction"]
+        },
+        {
+          "id": "heent-25",
+          "stepNumber": 25,
+          "title": "Inspects Nasal Mucosa & Nasal Septum",
+          "comments": ["Color", "Discharge", "Swelling of turbinates", "Perforation of septum, septal hematoma"]
+        },
+        {
+          "id": "heent-26",
+          "stepNumber": 26,
+          "title": "Inspects Lips, Gingivae, & Teeth",
+          "comments": ["Color", "Condition of teeth", "Presence of dentures/bridges/piercings"]
+        },
+        {
+          "id": "heent-27",
+          "stepNumber": 27,
+          "title": "Inspects the Tongue & Buccal Mucosa",
+          "comments": ["Color", "Presence of piercings, ulcerations or lesions"]
+        },
+        {
+          "id": "heent-28",
+          "stepNumber": 28,
+          "title": "Tests CN XII (Hypoglossal)",
+          "instructions": "by inspecting protruded tongue",
+          "comments": ["Symmetry/Position", "Tremors", "Ability to move toward the nose & chin"]
+        },
+        {
+          "id": "heent-29",
+          "stepNumber": 29,
+          "title": "Tests CN X (Vagus)",
+          "instructions": "by inspecting Oropharynx as patient says \"Ah\"",
+          "comments": ["Rise of palatal arch", "Uvula", "Anteroposterior pillars", "Upper palate", "Tonsils", "Posterior pharynx"]
+        },
+        {
+          "id": "heent-30",
+          "stepNumber": 30,
+          "title": "Tests CN IX & X (Glossopharyngeal & Vagus)",
+          "comments": ["Patient's ability to swallow"]
+        },
+        {
+          "id": "heent-31",
+          "stepNumber": 31,
+          "title": "Inspects Neck",
+          "comments": ["Symmetry", "Masses", "Carotid & Jugular pulsations"]
+        },
+        {
+          "id": "heent-32",
+          "stepNumber": 32,
+          "title": "Palpates bilateral Carotid Arteries separately",
+          "comments": ["Rhythm", "Grade"]
+        },
+        {
+          "id": "heent-33",
+          "stepNumber": 33,
+          "title": "Auscultates bilateral Carotid Arteries for bruits",
+          "instructions": "using bell",
+          "subSteps": [
+            { "id": "33a", "content": "Instructs patient to hold breath & turn head away while auscultating" }
+          ],
+          "comments": ["Presence or absence"]
+        },
+        {
+          "id": "heent-34",
+          "stepNumber": 34,
+          "title": "Palpates Thyroid Gland",
+          "subSteps": [
+            { "id": "34a", "content": "Locates isthmus below cricoid cartilage, asks patient to swallow to confirm" },
+            { "id": "34b", "content": "Asks patient to flex neck slightly forward & to the side being examined" },
+            { "id": "34c", "content": "Palpates lateral lobes deep to anterior border of sternocleidomastoid muscle" },
+            { "id": "34d", "content": "Confirms findings by having patient swallow" }
+          ],
+          "comments": ["Tenderness", "Consistency", "Size", "Nodules"]
+        },
+        {
+          "id": "heent-35",
+          "stepNumber": 35,
+          "title": "Palpates bilateral Lymph Nodes simultaneously",
+          "subSteps": [
+            { "id": "35a", "content": "Preauricular" },
+            { "id": "35b", "content": "Postauricular" },
+            { "id": "35c", "content": "Occipital" },
+            { "id": "35d", "content": "Parotid" },
+            { "id": "35e", "content": "Tonsillar" },
+            { "id": "35f", "content": "Submandibular" },
+            { "id": "35g", "content": "Submental" },
+            { "id": "35h", "content": "Anterior Cervical" },
+            { "id": "35i", "content": "Posterior Cervical" },
+            { "id": "35j", "content": "Supraclavicular" },
+            { "id": "35k", "content": "Infraclavicular" }
+          ],
+          "comments": ["Size", "Consistency", "Mobility"]
+        },
+        {
+          "id": "heent-36",
+          "stepNumber": 36,
+          "title": "Tests CN XI (Spinal Accessory)",
+          "subSteps": [
+            { "id": "36a", "content": "Instructs patient to push against your hand by turning head" },
+            { "id": "36b", "content": "Places hand on the side of the patients jaw & provides resistance" },
+            { "id": "36c", "content": "Instructs patient to shrug their shoulders & hold that position as you apply downward pressure" }
+          ],
+          "comments": ["Bilateral strength grade"]
+        },
+        {
+          "id": "heent-37",
+          "stepNumber": 37,
+          "title": "Appropriately concludes the exam with the patient",
+          "subSteps": []
+        }
+      ]
+    },
+    {
+      "id": "neuro",
+      "name": "Neuro/Musculoskeletal Examination",
+      "shortName": "Neuro/MSK",
+      "totalSteps": 37,
+      "steps": [
+        {
+          "id": "neuro-1",
+          "stepNumber": 1,
+          "title": "Ensures Privacy",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "1a", "content": "Introduces self & explains role" },
+            { "id": "1b", "content": "Confirms Patient Identity" },
+            { "id": "1c", "content": "Informs patient they will be verbally describing the examination" }
+          ]
+        },
+        {
+          "id": "neuro-2",
+          "stepNumber": 2,
+          "title": "Performs Hand Hygiene",
+          "category": "SITTING",
+          "subSteps": []
+        },
+        {
+          "id": "neuro-3",
+          "stepNumber": 3,
+          "title": "Inspects Appearance",
+          "category": "SITTING",
+          "comments": ["Dress, posture, grooming, & hygiene", "Stature & build", "Nutritional state"]
+        },
+        {
+          "id": "neuro-4",
+          "stepNumber": 4,
+          "title": "Inspects Behavior",
+          "category": "SITTING",
+          "comments": ["Degree if Cooperativeness", "State of distress", "Affect", "Eye Contact", "Motor activity (normokinetic, bradykinetic, hyperkinetic)"]
+        },
+        {
+          "id": "neuro-5",
+          "stepNumber": 5,
+          "title": "Assesses Mood",
+          "category": "SITTING",
+          "instructions": "asks patient about mood",
+          "comments": ["Congruence with situation & affect"]
+        },
+        {
+          "id": "neuro-6",
+          "stepNumber": 6,
+          "title": "Assess Orientation to person, time, and place",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "6a", "content": "What is your name and DOB?" },
+            { "id": "6b", "content": "What is today's date and season of the year?" },
+            { "id": "6c", "content": "What is the name of this place or building?" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-7",
+          "stepNumber": 7,
+          "title": "Tests Memory",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "7a", "content": "Recent (short-term): ex. \"What did you eat for breakfast?\"" },
+            { "id": "7b", "content": "Remote (long-term): ex. \"What did you do for your last birthday?\"" },
+            { "id": "7c", "content": "Short-term Recall & Attention: Instruct patient to repeat 3 unrelated objects immediately & after 5 minutes" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-8",
+          "stepNumber": 8,
+          "title": "Tests Coordination",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "8a", "content": "Arm Dystaxia: Instructs patient to alternate hands touching nose, eyes closed" },
+            { "id": "8b", "content": "Rapid Alternating Movements: Instructs patient to touch each finger to the thumb of the same hand, both hands simultaneously, as fast as possible" },
+            { "id": "8c", "content": "Leg Dystaxia: Instruct patient to run heel from opposite knee down shin in a straight line" }
+          ],
+          "comments": ["Smoothness of movement", "Speed", "Rhythm"]
+        },
+        {
+          "id": "neuro-9",
+          "stepNumber": 9,
+          "title": "Tests Sensory Function",
+          "category": "SITTING",
+          "instructions": "instructs patient to close eyes throughout",
+          "subSteps": [
+            { "id": "9a", "content": "Exteroceptive Sensation: Instructs patient to say \"dull\" or \"sharp\" when felt" },
+            { "id": "9b", "content": "Touches extremities, first distal, then proximal, with cotton & toothpick" },
+            { "id": "9c", "content": "Proprioception: Instructs patient to say \"up\" or \"down\"" },
+            { "id": "9d", "content": "Holding a distal joint at the sides, position up or down, repeat bilaterally" },
+            { "id": "9e", "content": "Graphesthesia: Instructs patient to identify the number or letter" },
+            { "id": "9f", "content": "Draws letter or number on palm, repeat bilaterally" },
+            { "id": "9g", "content": "Stereognosis: Instructs patient to identify object & places object in patient's hand" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-10",
+          "stepNumber": 10,
+          "title": "Tests Deep Tendon Reflexes bilaterally",
+          "category": "SITTING",
+          "instructions": "instructs patient to relax, supports position",
+          "subSteps": [
+            { "id": "10a", "content": "Biceps: elbow partially flexed and forearm pronated with palm down, places thumb on biceps tendon, strikes tendon indirectly by striking hammer on finger" },
+            { "id": "10b", "content": "Triceps: sitting or supported technique. Sitting, flex arm at elbow with palm toward body and pull slightly across chest, strikes tendon above olecranon process just above elbow; Supported, support elbow at 90 degrees abduction and instruct patient to allow arm to go limp, strikes tendon above olecranon process" },
+            { "id": "10c", "content": "Brachioradialis: rest hand on lap with forearm partly pronated, strikes tendon above radial styloid process" },
+            { "id": "10d", "content": "Patellar: sitting position with feet dangling, strikes patellar tendon just below patella" },
+            { "id": "10e", "content": "Achilles: partially dorsiflex foot at ankle, strikes achilles tendon" }
+          ],
+          "comments": ["Grade, significance"]
+        },
+        {
+          "id": "neuro-11",
+          "stepNumber": 11,
+          "title": "Inspects, palpates, and tests active ROM of Neck",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "11a", "content": "Flexion (45°)" },
+            { "id": "11b", "content": "Extension (55°)" },
+            { "id": "11c", "content": "Rotation (70°)" },
+            { "id": "11d", "content": "Lateral Bending (40°)" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion", "Pain"]
+        },
+        {
+          "id": "neuro-12",
+          "stepNumber": 12,
+          "title": "Inspects, palpates, and tests active ROM of bilateral Shoulders",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "12a", "content": "Identifies AC Joint" },
+            { "id": "12b", "content": "Flexion (180°)" },
+            { "id": "12c", "content": "Extension (60°)" },
+            { "id": "12d", "content": "Abduction (180°)" },
+            { "id": "12e", "content": "Adduction (50° - 90°)" },
+            { "id": "12f", "content": "Internal & External Rotation (90°)" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion", "Pain"]
+        },
+        {
+          "id": "neuro-13",
+          "stepNumber": 13,
+          "title": "Tests for Impingement",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "13a", "content": "Painful Arc Test: fully abducts shoulder to 180°" },
+            { "id": "13b", "content": "Neer's Sign: Internally rotate arm & passively flex shoulder" },
+            { "id": "13c", "content": "Hawkins-Kennedy Test: abducts shoulder 90° with palm facing down, internally rotates forearm" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-14",
+          "stepNumber": 14,
+          "title": "Tests Shoulder Stability",
+          "category": "SITTING",
+          "instructions": "performs Anterior Shoulder Apprehension Test",
+          "subSteps": [
+            { "id": "14a", "content": "Patient positioned supine on exam table" },
+            { "id": "14b", "content": "Shoulder passively abducted 90° and elbow flexed 90°, externally rotate forearm; apply anterior pressure on humerus to stabilize" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-15",
+          "stepNumber": 15,
+          "title": "Tests for AC Joint disorder",
+          "category": "SITTING",
+          "instructions": "performs Shoulder Scarf Test",
+          "subSteps": [
+            { "id": "15a", "content": "Rest hand on top of opposite shoulder, press elbow to push hand back" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-16",
+          "stepNumber": 16,
+          "title": "Tests for Scapular Instability",
+          "category": "SITTING",
+          "instructions": "performs Lift-Off Test",
+          "subSteps": [
+            { "id": "16a", "content": "Places dorsum of hand against mid-lumbar spine" },
+            { "id": "16b", "content": "Instructs patient to lift their hand away from their back; repeat while applying resistance" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-17",
+          "stepNumber": 17,
+          "title": "Inspects, palpates, and tests active ROM of bilateral Elbows",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "17a", "content": "Identifies medial & lateral Epicondyles & Olecranon Process" },
+            { "id": "17b", "content": "Flexion (160°)" },
+            { "id": "17c", "content": "Extension (180°)" },
+            { "id": "17d", "content": "Supination & Pronation (90°)" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion", "Pain"]
+        },
+        {
+          "id": "neuro-18",
+          "stepNumber": 18,
+          "title": "Tests for Epicondylitis",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "18a", "content": "Medial (Golfer's Elbow): palpate medial epicondyle, passively supinate forearm with elbow 90° flexed & supported, extends wrist/fingers and extends elbow fully" },
+            { "id": "18b", "content": "Lateral (Tennis Elbow): palpate lateral epicondyle, passively pronate forearm with elbow 90° flexion & supported, flexes wrist/fist and extends elbow fully" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-19",
+          "stepNumber": 19,
+          "title": "Inspects, palpates, and tests active ROM of bilateral Wrists",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "19a", "content": "Extension (70°)" },
+            { "id": "19b", "content": "Flexion (70 - 90°)" },
+            { "id": "19c", "content": "Radial deviation (20°)" },
+            { "id": "19d", "content": "Ulnar deviation (30-55°)" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion", "Pain"]
+        },
+        {
+          "id": "neuro-20",
+          "stepNumber": 20,
+          "title": "Inspects, palpates, and tests active ROM of bilateral Hands & Fingers",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "20a", "content": "Identifies \"Snuffbox\"" },
+            { "id": "20b", "content": "Instructs patient to make fist with thumb across knuckles" },
+            { "id": "20c", "content": "Extend and spread/flare fingers" },
+            { "id": "20d", "content": "Touch each digit to thumb" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion", "Pain", "Number, completeness, position, shape, & symmetry of digits"]
+        },
+        {
+          "id": "neuro-21",
+          "stepNumber": 21,
+          "title": "Tests bilateral Grip Strength",
+          "category": "SITTING",
+          "comments": ["Interpretation, significance", "Grade"]
+        },
+        {
+          "id": "neuro-22",
+          "stepNumber": 22,
+          "title": "Tests for Carpal Tunnel Syndrome",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "22a", "content": "Tinel's Sign: Percusses over median nerve in carpal tunnel" },
+            { "id": "22b", "content": "Phalen's Sign: Holds wrists in complete flexion, dorsums together for 60 seconds" },
+            { "id": "22c", "content": "Carpal Compression Test: With wrist supinated, applies pressure with both thumbs over median nerve in carpal tunnel" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-23",
+          "stepNumber": 23,
+          "title": "Tests for de Quervain Tenosynovitis",
+          "category": "SITTING",
+          "subSteps": [
+            { "id": "23a", "content": "Finkelstein Test: Grasps thumb, ulnar deviates the hand" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-24",
+          "stepNumber": 24,
+          "title": "Tests for Meningeal Signs",
+          "category": "SUPINE",
+          "subSteps": [
+            { "id": "24a", "content": "Brudzinski's Sign: Place one hand on chest, attempt to flex neck with other" },
+            { "id": "24b", "content": "Kernig's Sign: Flex hip and knee to 90 degrees and then slowly extend leg and straighten knee" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-25",
+          "stepNumber": 25,
+          "title": "Tests Babinski Reflex",
+          "category": "SUPINE",
+          "subSteps": [
+            { "id": "25a", "content": "Drag handle of reflex hammer firmly across lateral aspect of the sole from heel to ball of foot curving medially across ball" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-26",
+          "stepNumber": 26,
+          "title": "Inspect, palpates, & tests active ROM of bilateral Hips",
+          "category": "SUPINE",
+          "instructions": "repositions as needed",
+          "subSteps": [
+            { "id": "26a", "content": "Identifies Iliac Crest, ASIS, PSIS, & Greater Trochanter" },
+            { "id": "26b", "content": "Flexion (with knee extended 90°; with knee flexed 130° - 150°)" },
+            { "id": "26c", "content": "Extension (prone; 5°- 40°)" },
+            { "id": "26d", "content": "Adduction (20° - 30°)" },
+            { "id": "26e", "content": "Abduction (45°)" },
+            { "id": "26f", "content": "Internal Rotation (35°- 45°) & External Rotation (40°-50°)" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion, presence or absence of Crepitus", "Pain"]
+        },
+        {
+          "id": "neuro-27",
+          "stepNumber": 27,
+          "title": "Inspects, palpates, & tests active ROM of bilateral Knees",
+          "category": "SUPINE",
+          "subSteps": [
+            { "id": "27a", "content": "Identifies Suprapatellar Pouch, Popliteal Fossa, MCL, LCL, & Tibial Tubercle" },
+            { "id": "27b", "content": "Flexion (135°)" },
+            { "id": "27c", "content": "Extension (180°)" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour, Genu Varus or Valgum", "Range of motion, presence or absence of Crepitus", "Pain"]
+        },
+        {
+          "id": "neuro-28",
+          "stepNumber": 28,
+          "title": "Tests for ACL & PCL Injury",
+          "category": "SUPINE",
+          "subSteps": [
+            { "id": "28a", "content": "Anterior/Posterior Drawer Test: knee flexed to 90°, feet flat on table, grasps tibia just below knee with both hands, thumbs placed parallel to patellar tendon, draws tibia anteriorly & pushes tibia posteriorly" },
+            { "id": "28b", "content": "Lachman's Test: knee flexed to 20°-30°, grasps proximal tibia with one hand & femur other, pulls tibia anteriorly & pushes tibia posteriorly" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-29",
+          "stepNumber": 29,
+          "title": "Tests for MCL & LCL Injury",
+          "category": "SUPINE",
+          "subSteps": [
+            { "id": "29a", "content": "Varus Stress Test (LCL): knee flexed to 20-30°, stabilizes distal femur with one hand & applies varus pressure at distal tibia to adduct lower leg slightly" },
+            { "id": "29b", "content": "Valgus Stress Test (MCL): knee flexed to 20-30°, stabilizes distal femur with one hand & applies valgus pressure at distal tibia to abduct lower leg while restricting axial rotation" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-30",
+          "stepNumber": 30,
+          "title": "Tests for Meniscal Tears with McMurray's Test",
+          "category": "SUPINE",
+          "subSteps": [
+            { "id": "30a", "content": "Lateral Tears: With knee in complete flexion, holds bottom of foot with one hand & palpates knee joint with other, internally rotates tibia & extends knee" },
+            { "id": "30b", "content": "Medial Tears: With knee in complete flexion, holds bottom of foot with one hand & palpates knee joint with other, externally rotates tibia & extends knee" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-31",
+          "stepNumber": 31,
+          "title": "Inspects, palpates, & tests active ROM of bilateral Ankles",
+          "category": "SUPINE",
+          "subSteps": [
+            { "id": "31a", "content": "Dorsiflexion (20°)" },
+            { "id": "31b", "content": "Plantar Flexion (45°)" },
+            { "id": "31c", "content": "Eversion (20°)" },
+            { "id": "31d", "content": "Inversion (30°)" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion", "Pain"]
+        },
+        {
+          "id": "neuro-32",
+          "stepNumber": 32,
+          "title": "Tests Trunk Strength",
+          "category": "SUPINE",
+          "instructions": "by assisting patient to sitting position",
+          "comments": ["Degree of assistance needed"]
+        },
+        {
+          "id": "neuro-33",
+          "stepNumber": 33,
+          "title": "Tests Balance & Gait",
+          "category": "STANDING",
+          "instructions": "stands near patient to provide support if needed",
+          "subSteps": [
+            { "id": "33a", "content": "Romberg's Test: instructs patient to stand with feet together, then close eyes (assess for 30-60 seconds)" },
+            { "id": "33b", "content": "Pronator Drift: instructs patient to stand with arms extended, palms up (assess for 20 seconds)" },
+            { "id": "33c", "content": "Natural Gait: instructs patient to walk across room" },
+            { "id": "33d", "content": "Tandem Walking: instructs patient to walk heel-to-toe" },
+            { "id": "33e", "content": "Toes & Heels: instructs patient to walk across room on toes & back on heels" }
+          ],
+          "comments": ["Smoothness of movement", "Balance, guarding", "Weakness", "Stiffness"]
+        },
+        {
+          "id": "neuro-34",
+          "stepNumber": 34,
+          "title": "Tests for Meniscal Tears with Duck Walk Test",
+          "category": "STANDING",
+          "subSteps": [
+            { "id": "34a", "content": "Instruct patient to squat completely & waddle forward, backward & side-to-side" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-35",
+          "stepNumber": 35,
+          "title": "Inspects, palpates, and test ROM of Spine",
+          "category": "STANDING",
+          "subSteps": [
+            { "id": "35a", "content": "Flexion (75°-90°)" },
+            { "id": "35b", "content": "Extension (30°)" },
+            { "id": "35c", "content": "Lateral bending (35°)" },
+            { "id": "35d", "content": "Rotation" }
+          ],
+          "comments": ["Ecchymosis, erythema, edema, contour", "Range of motion", "Pain", "Posture", "Alignment of shoulders, hips, & feet"]
+        },
+        {
+          "id": "neuro-36",
+          "stepNumber": 36,
+          "title": "Tests for Scoliosis",
+          "category": "STANDING",
+          "subSteps": [
+            { "id": "36a", "content": "Instructs patient to bend forward with feet together, knees locked, arms in diving posture with fingertips aligned, head forward" }
+          ],
+          "comments": ["Interpretation, significance"]
+        },
+        {
+          "id": "neuro-37",
+          "stepNumber": 37,
+          "title": "Appropriately concludes the exam with the patient",
+          "category": "STANDING",
+          "subSteps": []
+        }
+      ]
+    }
+  ]
+}
