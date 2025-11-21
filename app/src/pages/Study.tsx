@@ -76,6 +76,29 @@ export default function Study() {
     setIsFlipped(false);
   }, [settings.shuffleMode, settings.showOnlyNonMastered]);
 
+  const handleNext = () => {
+    if (currentIndex < displaySteps.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+      setIsFlipped(false);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex((prev) => prev - 1);
+      setIsFlipped(false);
+    }
+  };
+
+  const toggleMastered = () => {
+    if (!currentStep) return;
+    if (isStepMastered(examId!, currentStep.id)) {
+      unmarkStepAsMastered(examId!, currentStep.id);
+    } else {
+      markStepAsMastered(examId!, currentStep.id);
+    }
+  };
+
   // Keyboard navigation
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -97,7 +120,7 @@ export default function Study() {
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [currentIndex, displaySteps.length, currentStep]);
+  }, [currentIndex, displaySteps.length, currentStep, examId, isStepMastered, markStepAsMastered, unmarkStepAsMastered, toggleShuffleMode]);
 
   if (!exam) {
     return (
@@ -153,29 +176,6 @@ export default function Study() {
       </div>
     );
   }
-
-  const handleNext = () => {
-    if (currentIndex < displaySteps.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-      setIsFlipped(false);
-    }
-  };
-
-  const handlePrevious = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
-      setIsFlipped(false);
-    }
-  };
-
-  const toggleMastered = () => {
-    if (!currentStep) return;
-    if (isStepMastered(examId!, currentStep.id)) {
-      unmarkStepAsMastered(examId!, currentStep.id);
-    } else {
-      markStepAsMastered(examId!, currentStep.id);
-    }
-  };
 
   const handleReset = () => {
     resetExamProgress(examId!);

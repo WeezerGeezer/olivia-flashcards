@@ -32,8 +32,8 @@ export default function Flashcard({ step, isFlipped, onFlip }: FlashcardProps) {
   const hasComments = step.comments && step.comments.length > 0;
 
   return (
-    <div className="flip-card w-full" style={{ minHeight: '400px' }}>
-      <div className={`flip-card-inner ${isFlipped ? 'flipped' : ''}`}>
+    <div className={`flip-card w-full ${isFlipped ? 'flipped' : ''}`} style={{ minHeight: '400px' }}>
+      <div className="flip-card-inner">
         {/* Front - Question Side */}
         <div className="flip-card-front">
           <div
