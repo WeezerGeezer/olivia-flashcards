@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
 import type { ExamStep } from '../types/exam';
 
 interface FlashcardProps {
@@ -9,25 +7,6 @@ interface FlashcardProps {
 }
 
 export default function Flashcard({ step, isFlipped, onFlip }: FlashcardProps) {
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set());
-
-  // Reset expanded sections when card changes
-  useEffect(() => {
-    setExpandedSections(new Set());
-  }, [step.id]);
-
-  const toggleSection = (sectionId: string) => {
-    setExpandedSections((prev) => {
-      const next = new Set(prev);
-      if (next.has(sectionId)) {
-        next.delete(sectionId);
-      } else {
-        next.add(sectionId);
-      }
-      return next;
-    });
-  };
-
   const hasSubSteps = step.subSteps && step.subSteps.length > 0;
   const hasComments = step.comments && step.comments.length > 0;
 
@@ -89,67 +68,43 @@ export default function Flashcard({ step, isFlipped, onFlip }: FlashcardProps) {
               )}
             </div>
 
-            {/* Sub-steps - Collapsible */}
+            {/* Sub-steps - Always visible */}
             {hasSubSteps && (
               <div className="mb-6">
-                <button
-                  onClick={() => toggleSection('substeps')}
-                  className="flex items-center justify-between w-full p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors"
-                >
-                  <span className="font-semibold text-gray-900 dark:text-gray-100">
-                    Detailed Steps ({step.subSteps?.length})
-                  </span>
-                  {expandedSections.has('substeps') ? (
-                    <ChevronUp className="w-5 h-5 text-gray-600 dark:text-gray-400" />
-                  ) : (
-                    <ChevronDown className="w-5 h-5 text-gray-600 dark:text-gray-400" />
-                  )}
-                </button>
-                {expandedSections.has('substeps') && (
-                  <ul className="mt-3 space-y-2 pl-4">
-                    {step.subSteps?.map((subStep) => (
-                      <li
-                        key={subStep.id}
-                        className="flex gap-2 text-gray-700 dark:text-gray-300"
-                      >
-                        <span className="text-blue-500 mt-1">•</span>
-                        <span>{subStep.content}</span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3 text-lg">
+                  Detailed Steps:
+                </h3>
+                <ul className="space-y-2 pl-2">
+                  {step.subSteps?.map((subStep) => (
+                    <li
+                      key={subStep.id}
+                      className="flex gap-2 text-gray-700 dark:text-gray-300"
+                    >
+                      <span className="text-blue-500 mt-1">•</span>
+                      <span>{subStep.content}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
 
-            {/* Comments - Collapsible */}
+            {/* Comments - Always visible */}
             {hasComments && (
               <div className="mb-6">
-                <button
-                  onClick={() => toggleSection('comments')}
-                  className="flex items-center justify-between w-full p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors"
-                >
-                  <span className="font-semibold text-gray-900 dark:text-gray-100">
-                    Comments on ({step.comments?.length})
-                  </span>
-                  {expandedSections.has('comments') ? (
-                    <ChevronUp className="w-5 h-5 text-gray-600 dark:text-gray-400" />
-                  ) : (
-                    <ChevronDown className="w-5 h-5 text-gray-600 dark:text-gray-400" />
-                  )}
-                </button>
-                {expandedSections.has('comments') && (
-                  <ul className="mt-3 space-y-2 pl-4">
-                    {step.comments?.map((comment, index) => (
-                      <li
-                        key={index}
-                        className="flex gap-2 text-gray-700 dark:text-gray-300"
-                      >
-                        <span className="text-green-500 mt-1">•</span>
-                        <span>{comment}</span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3 text-lg">
+                  Comment on:
+                </h3>
+                <ul className="space-y-2 pl-2">
+                  {step.comments?.map((comment, index) => (
+                    <li
+                      key={index}
+                      className="flex gap-2 text-gray-700 dark:text-gray-300"
+                    >
+                      <span className="text-green-500 mt-1">•</span>
+                      <span>{comment}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
 
