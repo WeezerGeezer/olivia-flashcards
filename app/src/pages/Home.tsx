@@ -9,6 +9,14 @@ const data = examsData as ExamsData;
 export default function Home() {
   const { settings, toggleDarkMode, getMasteredCount } = useStore();
 
+  // Determine category based on exam ID
+  const getExamCategory = (examId: string) => {
+    if (['abdomen', 'cardiac-respiratory', 'heent-cranial-nerves', 'neuro-musculoskeletal'].includes(examId)) {
+      return { label: 'Physical Exam', color: 'bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300' };
+    }
+    return { label: 'Pharmacy', color: 'bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300' };
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
       {/* Header */}
@@ -42,6 +50,7 @@ export default function Home() {
           {data.exams.map((exam) => {
             const masteredCount = getMasteredCount(exam.id);
             const progress = (masteredCount / exam.totalSteps) * 100;
+            const category = getExamCategory(exam.id);
 
             return (
               <Link
@@ -49,6 +58,11 @@ export default function Home() {
                 to={`/study/${exam.id}`}
                 className="block bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-400"
               >
+                <div className="mb-3">
+                  <span className={`inline-block px-3 py-1 text-xs font-semibold rounded-full ${category.color}`}>
+                    {category.label}
+                  </span>
+                </div>
                 <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   {exam.name}
                 </h2>
