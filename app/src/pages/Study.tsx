@@ -78,15 +78,21 @@ export default function Study() {
 
   const handleNext = () => {
     if (currentIndex < displaySteps.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
+      // Flip to front first, then change card after animation
       setIsFlipped(false);
+      setTimeout(() => {
+        setCurrentIndex((prev) => prev + 1);
+      }, isFlipped ? 300 : 0); // Wait for flip animation if currently flipped
     }
   };
 
   const handlePrevious = () => {
     if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
+      // Flip to front first, then change card after animation
       setIsFlipped(false);
+      setTimeout(() => {
+        setCurrentIndex((prev) => prev - 1);
+      }, isFlipped ? 300 : 0); // Wait for flip animation if currently flipped
     }
   };
 
@@ -259,6 +265,7 @@ export default function Study() {
         {/* Flashcard */}
         {currentStep && (
           <Flashcard
+            key={currentStep.id}
             step={currentStep}
             isFlipped={isFlipped}
             onFlip={() => setIsFlipped((prev) => !prev)}

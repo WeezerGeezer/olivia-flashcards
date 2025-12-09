@@ -18,7 +18,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-blue-600 dark:text-blue-400" />
               <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100">
-                Medical Exam Flashcards
+                Exam Checklist Cards
               </h1>
             </div>
             <button
@@ -33,9 +33,6 @@ export default function Home() {
               )}
             </button>
           </div>
-          <p className="mt-2 text-gray-600 dark:text-gray-400">
-            Practice medical physical examination techniques from standardized check-off rubrics
-          </p>
         </div>
       </header>
 
@@ -88,8 +85,12 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-16 pb-8 text-center text-gray-600 dark:text-gray-400 text-sm">
-        <p>Study smart, practice well, and master the examination techniques!</p>
+      <footer className="mt-16 pb-8 flex justify-center">
+        <img
+          src="/cat-pic.jpg"
+          alt="Cat"
+          className="rounded-lg shadow-md max-w-xs w-full"
+        />
       </footer>
     </div>
   );
