@@ -11,7 +11,7 @@ export default function Home() {
 
   // Determine category based on exam ID
   const getExamCategory = (examId: string) => {
-    if (['abdomen', 'cardiac-respiratory', 'heent-cranial-nerves', 'neuro-musculoskeletal'].includes(examId)) {
+    if (['abdomen', 'cardiac', 'heent', 'neuro'].includes(examId)) {
       return { label: 'Physical Exam', color: 'bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300' };
     }
     return { label: 'Pharmacy', color: 'bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300' };
