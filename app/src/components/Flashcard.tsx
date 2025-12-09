@@ -43,13 +43,13 @@ export default function Flashcard({ step, isFlipped, onFlip }: FlashcardProps) {
               </div>
             )}
             <div
-              onClick={handleTitleClick}
-              className={`text-2xl sm:text-3xl font-semibold text-gray-900 dark:text-gray-100 mb-4 transition-all duration-300 cursor-pointer select-none ${
-                isTitleRevealed ? '' : 'blur-md hover:blur-sm'
+              onClick={isPharmacyCard ? undefined : handleTitleClick}
+              className={`text-2xl sm:text-3xl font-semibold text-gray-900 dark:text-gray-100 mb-4 transition-all duration-300 select-none ${
+                isPharmacyCard ? '' : (isTitleRevealed ? '' : 'blur-md hover:blur-sm cursor-pointer')
               }`}
             >
               <h2>{step.title}</h2>
-              {!isTitleRevealed && (
+              {!isPharmacyCard && !isTitleRevealed && (
                 <p className="text-sm text-gray-500 dark:text-gray-500 mt-2 blur-none">
                   Click to reveal title
                 </p>
