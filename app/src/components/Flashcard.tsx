@@ -11,6 +11,7 @@ export default function Flashcard({ step, isFlipped, onFlip }: FlashcardProps) {
   const [isTitleRevealed, setIsTitleRevealed] = useState(false);
   const hasSubSteps = step.subSteps && step.subSteps.length > 0;
   const hasComments = step.comments && step.comments.length > 0;
+  const isPharmacyCard = 'pageRef' in step; // Pharmacy cards have pageRef field
 
   // Reset title blur when card changes
   useEffect(() => {
@@ -36,9 +37,11 @@ export default function Flashcard({ step, isFlipped, onFlip }: FlashcardProps) {
                 {step.category}
               </span>
             )}
-            <div className="text-4xl sm:text-5xl font-bold text-blue-600 dark:text-blue-400 mb-6">
-              Step {step.stepNumber}
-            </div>
+            {!isPharmacyCard && (
+              <div className="text-4xl sm:text-5xl font-bold text-blue-600 dark:text-blue-400 mb-6">
+                Step {step.stepNumber}
+              </div>
+            )}
             <div
               onClick={handleTitleClick}
               className={`text-2xl sm:text-3xl font-semibold text-gray-900 dark:text-gray-100 mb-4 transition-all duration-300 cursor-pointer select-none ${
@@ -73,9 +76,11 @@ export default function Flashcard({ step, isFlipped, onFlip }: FlashcardProps) {
                 </span>
               )}
               <div className="flex items-center gap-3 mb-2">
-                <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                  Step {step.stepNumber}
-                </span>
+                {!isPharmacyCard && (
+                  <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                    Step {step.stepNumber}
+                  </span>
+                )}
                 <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-gray-100">
                   {step.title}
                 </h2>
